@@ -1,0 +1,54 @@
+1 What is python and its key feature
+Ans: Python is the high level programming language which commonly use in web-development,data-science,games etc in all the fields
+key feature
+1.Easy to understand
+2.Intrepreted language
+3.Dynamic Typic-like we dont need to assign the data type for the variables initially python can understand by their own
+4.Extensive Libraried and Frameworks
+5.Compatiable with other platforms
+
+2.What are python list and tuples
+Ans: Python list work like an array but there we can store hetrogeneous data type.
+1. we can perform all the CRUD operation on list
+2. it is mutuable type data type
+3. we store the elements in a square brackets
+4. performance wise it is bit slow
+tuple: tuples are immutuable data type where we can view all the stored elements but we cannot perform any CRUD operation there and we use round brackets to store the data.
+EX:List
+a = [1,2,3,4]
+tuple
+a = (2,4,5,1)
+
+3. What is __init__ file in python
+Ans: The __init__() method is known as constructor in OOP's. it is used for initialized an object's state when it is created.This method is automatically called when the new instance of a class is instantiated.
+Purpose: a)Assign values to the object propertied
+         b) Perform any initialization operations
+Example: We have created a 'stationery' class and added the constructor and notebook function().The constructor will store the book title name and the notebook() function will print the notebook name
+class Stationery:
+def __init__(self,name):
+      self.name = name
+def notebook(self):
+    print("The name of the book is',self.name)
+
+b = Stationery('Science')
+b.notebook()
+o/p= The name of a book is 'Science'
+
+4.what are the mutuable and immutable data types
+Ans: Mutuable data types are those who perform CRUD operation on their elements like list,dict however immutuable data type does not perform any crud operation
+like tuple,string
+
+5.Explain list,dict and tuple comprehnsion with an example
+list comprehnshion: is the expression which we can write in a one line and perform the overall operation on the list element
+syntax: [expression based on the loop and if condition]
+example : even number up to 20 we have list comprehnsion is [i for i in range(1,20) if i % 2 == 0]
+
+dict comprehnsion:it is same like list comprehnsion we can create a dictionary based on the existing table with a single line of code,we need to use {} braces for writing the syntax
+square_dict = {i*i for i in range(1,20)}
+
+Tuple comprehnsion is bit different from tuple like it does not return the tuple it returns generator object and we use () braces to perform the tuple comprehnsion
+square_tuple = (i*i for i in range(1,20))
+
+6. what  is GIL(Global Interpreter lock) in python and why it is important
+Ans: The GIL is a mutex used in CPython(the standard python interpreter) to prevent multiple native threads from executing python bytecode simultaneously.it simplified memory management but limit multi threading performance for cpu bound task
+this make threading in python less effective for certain task,though it works well for I/O bound operations
