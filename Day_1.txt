@@ -52,3 +52,5 @@ square_tuple = (i*i for i in range(1,20))
 6. what  is GIL(Global Interpreter lock) in python and why it is important
 Ans: The GIL is a mutex used in CPython(the standard python interpreter) to prevent multiple native threads from executing python bytecode simultaneously.it simplified memory management but limit multi threading performance for cpu bound task
 this make threading in python less effective for certain task,though it works well for I/O bound operations
+7. what is a keyerror in python and how can you handle it?
+Ans A key error occur in any program where they try to access the key which is not available then we get KeyNotFound Error
