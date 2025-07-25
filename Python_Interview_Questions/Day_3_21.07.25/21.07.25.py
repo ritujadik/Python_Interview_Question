@@ -1,5 +1,5 @@
 #Ques-1
-# what are the different datat types in python?
+# what are the different data types in python?
 # text-string
 #number-int,float,complex number
 #sequence-list,tuple,range
