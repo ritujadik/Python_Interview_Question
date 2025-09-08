@@ -3,7 +3,7 @@ Ques-1 what is GIL in python and how does it affect threading in python?
 Answer The GIL ensures only one thread exectutes Python bytecode at a time in a python process,
 even if there is multiple threads.This is not true parallelism.instead the GIL switches control between
 threads periodically,allowing each thread to run for a short time.
-This enable python to handle I/O-bound threads concurrently but it limits performance for CPU-bound multithreading
+This enable python to handle I/O-bound threads concurrently, but it limits performance for CPU-bound multithreading
 Python threads run concurrently but not in parallel due to GIL
 
 Que-2 When would you choose asyncio over threading?
@@ -15,7 +15,7 @@ in python
 Exapmle-handling thousand of client connection in web browser.
 building chatting apps
 
-Que-3 what is the diiference between concurrency and parallelism
+Que-3 what is the difference between concurrency and parallelism
 Answer: concurrency is the process where we switch from one task to another for excution while parallelism is something where all the
 task perform simultaneously
 
@@ -38,7 +38,7 @@ CPU-bound tasks require heavy computation, which blocks the single-threaded asyn
 
 Question-8 what is coroutes in python?
 Answer:A coroutine in python is a special type of function that can pause and resume its execution,allowing other tasks to run while it waits.
-Coroutine are defined using async def and they are builiding blocks of asynchronous code.
+Coroutine are defined using async def and they are building blocks of asynchronous code.
 
 Question-9 How can you run multiple asynchronous functions concurrently using asyncio?
 Answer To run mutilple asynchronous function concurrently in asyncio we can use asyncio.gather() or creating a tasks using asyncio.create_task()

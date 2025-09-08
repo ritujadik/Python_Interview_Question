@@ -82,7 +82,7 @@ print(x)=>[1,2,4,[5,6]]
 print(y)=>[1,2,4,[5,9]]**
 
 Question-5 what is the difference between @staticmethod and @classicmethod in python?
-Answer:@static method:A static method does not take any implicit first argument(neither selif nor cls)
+Answer:@static method:A static method does not take any implicit first argument(neither self nor cls)
 * it behaves like a normal function but belongs to the class's namespace
 * used when we want to logically group a function with a class but the function
 doesn't need access to the class or instance variables.

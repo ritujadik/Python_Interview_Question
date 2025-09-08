@@ -41,6 +41,7 @@
 # new_item = Stationery("Pencil",40)
 #
 # new_item.item()
+
 # Que:5 what is a lambda function in python
 # lambda function is an anonymous function which we create to execute once and we cannot reuse the same like normal function also it
 # writes in a one line

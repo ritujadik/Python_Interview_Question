@@ -78,7 +78,7 @@ o/p should be nothing
 Question-10 How will you check if all the characters in the string are alphanumeric
 Answer: for that we can use isalnum() in built method of python.it will give response in true or false
 
-Question-11 How will you merge the elements in a sequence data tpye
+Question-11 How will you merge the elements in a sequence data type
 Ex- list_1 = [1,2,3,4]
 list_2 = [4,5,6,7]
 list_1 + list_2 = [1,2,3,4,4,5,6,7]

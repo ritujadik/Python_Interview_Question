@@ -56,7 +56,7 @@ Answer PEP 8 stands for Python Enhancement Propsal.A PEP 8 is a official design 
 or describing a new feature for python or its process.
 
 Ques-8 what is interpreted language?
-Answer Interpreted language excutes the statement line by line,such as python,R,JS
+Answer Interpreted language executes the statement line by line,such as python,R,JS
 
 Ques-9 what is dynamically typed language?
 Answer dynamically typed language are those language in which we dont have to define the data tpes before the execution and it is automatically understand by the language
